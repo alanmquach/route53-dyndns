@@ -17,7 +17,7 @@ echo '                ],' >> /root/dns.json
 
 echo "                \"Name\": \"${ROUTE53_HOSTNAME}\"," >> /root/dns.json
 
-echo '                "TTL": 300,' >> /root/dns.json
+echo '                "TTL": 60,' >> /root/dns.json
 echo '                "Type": "A"' >> /root/dns.json
 echo '            }' >> /root/dns.json
 echo '        }' >> /root/dns.json
